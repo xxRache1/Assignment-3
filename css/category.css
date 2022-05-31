@@ -1,5 +1,6 @@
 .content{
     text-align: center;
+    height: 600px;
 }
 
 .content h1{
@@ -8,9 +9,11 @@
     font-size: 54px;
     text-shadow: 2px 2px 5px black;
     text-align: center;
+    width: 300px;
+    margin: 0 auto;
 }
 
-.content div div div{
+.content div{
     width: 500px;
     height: 280px;
     color: aliceblue;
@@ -26,18 +29,20 @@
 .imgurl1{
     background-image: url("../images/imgurl1.jpeg");
     background-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 .imgurl2{
     background-image: url(../images/imgurl2.jpeg);
     background-size: 100%;
-    background-position-y: -200px;
+    /* background-position-y: -200px; */
 }
 
 .imgurl3{
     background-image: url(../images/imgurl3.jpeg);
     background-size: 100%;
-    background-position-y: -100px;
+    /* background-position-y: -100px; */
 }
 
 .imgurl4{
