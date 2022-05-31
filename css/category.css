@@ -1,0 +1,45 @@
+.content{
+    text-align: center;
+}
+
+.content h1{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 54px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+
+.content div div div{
+    width: 500px;
+    height: 280px;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 42px;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 280px;
+    margin: 30px 80px;
+    display: inline-block;
+}
+
+.imgurl1{
+    background-image: url("../images/imgurl1.jpeg");
+    background-size: 100%;
+}
+
+.imgurl2{
+    background-image: url(../images/imgurl2.jpeg);
+    background-size: 100%;
+    background-position-y: -200px;
+}
+
+.imgurl3{
+    background-image: url(../images/imgurl3.jpeg);
+    background-size: 100%;
+    background-position-y: -100px;
+}
+
+.imgurl4{
+    background-color: darkgray;
+}
