@@ -1,0 +1,39 @@
+.content{
+    text-align: center;
+    height: 600px;
+}
+
+.content h1{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 54px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.content svg path{
+    fill: aliceblue;
+}
+
+.content input{
+    font-size: 24px;
+    color: aliceblue;
+    background-color: transparent;
+    border: none;
+}
+
+input::-webkit-input-placeholder{
+    color: aliceblue;
+}
+
+input::-ms-input-placeholder{
+    color: aliceblue;
+}
+
+.content div:last-child{
+    margin: 150px auto;
+    width: 500px;
+    border-bottom: 3px aliceblue solid;
+}
