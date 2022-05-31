@@ -1,9 +1,44 @@
-.content{
+.background{
     height: 645px;
 }
 
-.banner{
+.title{
     width: 1400px;
     height: 650px;
-    margin: auto;
+    margin: 0 auto;
+    background-image: url(images/background.png);
+    background-size: 100%;
+    background-position-y: -60px;
+}
+
+.title div:first-child{
+    padding-top: 150px;
+}
+
+.title div:last-child{/*button at the middle*/
+    padding-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 85px;
+}
+
+.title button{
+    border-radius: 25px;
+    border-style: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-weight: 900;
+    padding: 10px 30px;
+    opacity: 0.5;
+}
+
+.title button:hover{
+    opacity: 1;
 }

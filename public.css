@@ -1,0 +1,132 @@
+/*general*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(#b9d0c4,#364157);
+}
+
+.box{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+/*header*/
+.head{
+    height: 90px;
+    padding-top: 10px;
+}
+
+.logo{
+    padding-left: 110px;
+    float: left;
+}
+
+/*nav bar*/
+.top-nav{
+    overflow: hidden;
+    padding-left: 50px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.top-nav a{
+    text-decoration: none;/*delete underline tag*/
+    color: #3b475c;
+}
+
+.top-nav a:hover{
+    color: aliceblue;
+}
+
+.top-nav li{
+    float: left;
+    list-style-type: none;
+    padding: 0 25px;
+    line-height: 85px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.top-nav li:nth-child(5){
+    padding-left: 100px;
+}
+
+.top-nav svg{
+    padding-top: 10px;
+    padding-right: 100px;
+}
+
+/*footer*/
+.footer{
+    background-color: #50576b;
+    height: 150px;
+    padding: 20px 0;
+}
+
+.footer ul{
+    padding-left: 150px;
+}
+
+.footer li{
+    color: aliceblue;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 8px;
+    line-height: 30px;
+}
+
+.footer div:first-child{
+    float: left;
+}
+
+.footer div:nth-child(2){
+    overflow: hidden;
+    height: 120px;
+    padding-left: 100px;
+}
+
+.footer div:nth-child(2){
+    margin-top: 45px;
+}
+
+.footer div:last-child{
+    margin-top: 150px;
+    height: 2px;
+    width: 95%;
+    background-color: aliceblue;
+    margin: 20px auto;
+}
+
+.footer input{
+    border-radius: 30px;
+    border-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    width: 150px;
+    padding: 8px 9px;
+}
+
+.footer button{
+    border-radius: 30px;
+    border-style: none;
+    width: 100px;
+    padding: 8px 10px;
+    background-color: #50a8f4;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.footer.svg{
+    padding-top: 35px;
+    padding-right: 300px;
+}
