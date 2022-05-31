@@ -25,7 +25,7 @@ body{
 }
 
 /*nav bar*/
-.top-nav{
+.nav{
     overflow: hidden;
     padding-left: 50px;
 }
@@ -34,16 +34,16 @@ body{
     width: 150px;
 }
 
-.top-nav a{
+.nav a{
     text-decoration: none;/*delete underline tag*/
     color: #3b475c;
 }
 
-.top-nav a:hover{
+.nav a:hover{
     color: aliceblue;
 }
 
-.top-nav li{
+.nav li{
     float: left;
     list-style-type: none;
     padding: 0 25px;
@@ -54,11 +54,11 @@ body{
     font-weight: 900;
 }
 
-.top-nav li:nth-child(5){
+.nav li:nth-child(5){
     padding-left: 100px;
 }
 
-.top-nav svg{
+.nav svg{
     padding-top: 10px;
     padding-right: 100px;
 }
