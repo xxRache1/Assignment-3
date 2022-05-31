@@ -6,10 +6,12 @@
 
 body{
     background-image: linear-gradient(#b9d0c4,#364157);
+    height: 800px;
 }
 
 .box{
     width: 1500px;
+    height: 900px;
     margin: 0 auto;
 }
 
@@ -60,21 +62,21 @@ body{
 
 .nav svg{
     padding-top: 10px;
-    padding-right: 100px;
+    padding-right: 20px;
 }
 
 /*footer*/
-.footer{
+.foot{
     background-color: #50576b;
-    height: 150px;
+    height: 170px;
     padding: 20px 0;
 }
 
-.footer ul{
+.foot ul{
     padding-left: 150px;
 }
 
-.footer li{
+.foot li{
     color: aliceblue;
     list-style: none;
     font-family: 'Times New Roman', Times, serif;
@@ -83,29 +85,28 @@ body{
     line-height: 30px;
 }
 
-.footer div:first-child{
+.foot div:first-child{
     float: left;
 }
 
-.footer div:nth-child(2){
+.foot div:nth-child(2){
     overflow: hidden;
     height: 120px;
     padding-left: 100px;
 }
 
-.footer div:nth-child(2){
+.foot div:nth-child(2){
     margin-top: 45px;
 }
 
-.footer div:last-child{
-    margin-top: 150px;
+.foot div:last-child{
     height: 2px;
     width: 95%;
     background-color: aliceblue;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
-.footer input{
+.foot input{
     border-radius: 30px;
     border-style: none;
     font-family: 'Times New Roman', Times, serif;
@@ -114,7 +115,7 @@ body{
     padding: 8px 9px;
 }
 
-.footer button{
+.foot button{
     border-radius: 30px;
     border-style: none;
     width: 100px;
@@ -126,7 +127,6 @@ body{
     font-weight: 600;
 }
 
-.footer.svg{
-    padding-top: 35px;
-    padding-right: 300px;
+.foot svg{
+    padding-left: 300px;
 }

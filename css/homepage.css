@@ -1,34 +1,34 @@
-.background{
+.content{
     height: 645px;
 }
 
-.title{
+.banner{
     width: 1400px;
     height: 650px;
     margin: 0 auto;
-    background-image: url(images/background.png);
+    background-image: url('../images/background.png');
     background-size: 100%;
     background-position-y: -60px;
 }
 
-.title div:first-child{
+.banner div:first-child{
     padding-top: 150px;
 }
 
-.title div:last-child{/*button at the middle*/
+.banner div:last-child{/*button at the middle*/
     padding-top: 80px;
     margin: 0 auto;
     text-align: center;
 }
 
-.title h1{
+.banner h1{
     text-align: center;
     color: aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 85px;
 }
 
-.title button{
+.banner button{
     border-radius: 25px;
     border-style: none;
     font-size: 30px;
@@ -39,6 +39,6 @@
     opacity: 0.5;
 }
 
-.title button:hover{
+.banner button:hover{
     opacity: 1;
 }
