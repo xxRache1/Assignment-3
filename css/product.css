@@ -1,0 +1,102 @@
+.content{
+    height: 640px;
+    width: 1100px;
+    margin: 50px auto;
+}
+
+#buttonback{
+    height: 80px;
+}
+
+.content div:first-child button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 5px 20px;
+    border-radius: 35px;
+    border-style: none;
+    float: right;
+}
+
+.imgbox{
+    float: left;
+}
+
+.imgbox img{
+    width: 30px;
+    border-radius: 20px;
+}
+
+.infobox div:first-child{
+    overflow: hidden;
+    padding-left: 30px;
+    color: aliceblue;
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.num p,.num div{
+    float: left;
+}
+
+.num{
+    padding-left: 30px;
+    margin-top: 100px;
+}
+
+.num div:last-child{
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    color: black;
+    text-align: left;
+}
+
+.num>div{
+    margin-left: 100px;
+}
+
+hr{
+    width: 850px;
+}
+
+.imgwidth{
+    float: left;
+}
+
+.imgwidth>div{
+    margin-right: 30px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.imgwidth img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.ul{
+    float: left;
+    padding-top: 30px;
+}
+
+.ul ul{
+    color: aliceblue;
+    width: 200px;
+}
+
+.ul li:nth-child(2){
+    margin: 10px 0;
+}
+
+.detailbutton button{
+    width: 150px;
+    height: 50px;
+    padding: 5px 0;
+    margin: 40px 25px;
+    border-radius: 30px;
+    border-style: none;
+}
