@@ -1,0 +1,76 @@
+.content{
+    width: 1380px;
+    margin: 0 auto;
+}
+
+.titlebox{
+    padding-left: 280px;
+}
+
+.titlebox div{
+    display: inline-block;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    vertical-align: text-top;
+}
+
+.formbox{
+    height: 400px;
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.formbox div{
+    background-color: rgba(240, 248, 255, 0.3);
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.formbox div h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 70px;
+}
+
+.formbox button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.formbox button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.buttonbox{
+    text-align: center;
+    margin: 20px;
+}
+
+.buttonbox button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 500px;
+    margin: 30px;
+    border-radius: 30px;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.buttonbox button:hover{
+    background-color: aliceblue;
+    color: black;
+}
