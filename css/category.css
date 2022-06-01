@@ -1,6 +1,8 @@
 .content{
     text-align: center;
     height: 600px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .content h1{
@@ -13,18 +15,20 @@
     margin: 0 auto;
 }
 
-.content div{
-    width: 500px;
-    height: 280px;
+.content div div div{
+    width: 400px;
+    height: 220px;
     color: aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 42px;
     text-align: center;
     border-radius: 20px;
-    line-height: 280px;
-    margin: 30px 80px;
+    line-height: 220px;
     display: inline-block;
+    margin: 30px 60px;
 }
+
+
 
 .imgurl1{
     background-image: url("../images/imgurl1.jpeg");

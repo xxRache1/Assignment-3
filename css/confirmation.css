@@ -8,6 +8,7 @@
 }
 
 .titlebox div{
+    height: 85.5px;
     display: inline-block;
     color: aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -16,6 +17,14 @@
     margin: 5px;
 }
 
+.titlebox svg{
+    height: 85.5px;
+}
+
+.titlebox p{
+    vertical-align: middle;
+    line-height: 85.5px;
+}
 .formbox{
     height: 400px;
     width: 1260px;
