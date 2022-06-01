@@ -1,0 +1,142 @@
+.content div span{
+    color: rgb(240, 248, 255);
+}
+
+.content{
+    width: 1380px;
+    margin: 0 auto;
+}
+
+.titlebox{
+    padding-left: 280px;
+}
+
+.titlebox div{
+    display: inline-block;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    vertical-align: -webkit-baseline-middle;
+    margin: 5px;
+}
+
+.personalbox{
+    float: left;
+    width: 550px;
+    height: 400px;
+    background-color: rgba(240, 248, 255, 0.3);
+    border-radius: 20px;
+    color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+.content h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+}
+
+.cardbox{
+    width: 550px;
+    height: 400px;
+    background-color: rgba(240, 248, 255, 0.3);
+    border-radius: 20px;
+    color: aliceblue;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+.form{
+    height: 500px;
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.buttonbox{
+    text-align: center;
+    margin: 10px;
+}
+
+.buttonbox button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 325px;
+    margin: 30px;
+    border-radius: 30px;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.buttonbox button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.inputFloat{
+    float: left;
+}
+
+input::-webkit-input-placeholder{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input::-ms-input-placeholder{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.personalbox input,.cardbox input{
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 1px solid aliceblue;
+    padding: 5px;
+    outline: none;
+    outline: 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+.personalbox input:focus,.cardbox input:focus{
+    border-bottom: 3px solid aliceblue;
+}
+
+.personalbox p,.personalbox span,.cardbox p,.cardbox span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    font-style: bold;
+}
+
+.personalbox div{
+    padding-top: 15px;
+}
+
+.cardbox div{
+    padding: 20px 0;
+}
+
+.centercontent{
+    text-align: center;
+}
+
+.input3{
+    width: 170px;
+}
+
+.input2{
+    width: 220px;
+}
+
+.input1{
+    width: 540px;
+}
+
+.input2margin{
+    margin-left: 320px;
+}
