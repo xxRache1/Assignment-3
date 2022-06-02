@@ -12,12 +12,23 @@
 }
 
 .titlebox div{
+    height: 85.5px;
     display: inline-block;
     color: aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 48px;
     vertical-align: -webkit-baseline-middle;
     margin: 5px;
+    text-align: center;
+}
+
+.titlebox svg{
+    height: 85.5px;
+}
+
+.titlebox p{
+    vertical-align: middle;
+    line-height: 85.5px;
 }
 
 .personalbox{
@@ -42,8 +53,7 @@
     height: 400px;
     background-color: rgba(240, 248, 255, 0.3);
     border-radius: 20px;
-    color: aliceblue;
-    float: left;
+    color: aliceblue;float: left;
     margin: 20px;
     padding: 20px;
 }
@@ -62,7 +72,7 @@
 .buttonbox button{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    width: 325px;
+    width: 310px;
     margin: 30px;
     border-radius: 30px;
     border: 1px solid aliceblue;
@@ -107,10 +117,9 @@ input::-ms-input-placeholder{
     border-bottom: 3px solid aliceblue;
 }
 
-.personalbox p,.personalbox span,.cardbox p,.cardbox span{
+.personalbox p, .personalbox span, .cardbox p, .cardbox span{
     font-family: 'Times New Roman', Times, serif;
     font-size: 21px;
-    font-style: bold;
 }
 
 .personalbox div{
@@ -125,18 +134,18 @@ input::-ms-input-placeholder{
     text-align: center;
 }
 
-.input3{
-    width: 170px;
+.contentinput3 input{
+    width: 169px;
 }
 
-.input2{
+.contentinput2 input{
     width: 220px;
 }
 
-.input1{
+.contentinput1 input{
     width: 540px;
 }
 
-.input2margin{
+.contentinput2margin{
     margin-left: 320px;
 }
