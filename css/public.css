@@ -9,14 +9,15 @@ body{
     height: 800px;
 }
 
-.box{
-    width: 1512px;
+.Box{
+    min-width: 1512px;
     height: 900px;
     margin: 0 auto;
 }
 
 /*header*/
 .head{
+    min-width: 1512px;
     height: 90px;
     padding-top: 10px;
 }
@@ -67,6 +68,7 @@ body{
 
 /*footer*/
 .foot{
+    min-width: 1512px;
     background-color: #50576b;
     height: 170px;
     padding: 20px 0;

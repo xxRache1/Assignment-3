@@ -34,7 +34,7 @@
     background-image: url("../images/imgurl1.jpeg");
     background-size: 100%;
     font-family: 'Times New Roman', Times, serif;
-
+    cursor: pointer;
 }
 
 .imgurl2{

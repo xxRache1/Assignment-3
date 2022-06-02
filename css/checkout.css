@@ -79,6 +79,7 @@
     color: aliceblue;
     padding: 10px 20px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .buttonbox button:hover{
