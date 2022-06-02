@@ -19,6 +19,7 @@
     border-style: none;
     float: right;
     background-color: aliceblue;
+    cursor: pointer;
 }
 
 .imgbox{
@@ -114,4 +115,5 @@ hr{
     color: #3B475C;
     font-size: 20px;
     background-color: aliceblue;
+    cursor: pointer;
 }

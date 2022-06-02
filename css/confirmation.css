@@ -63,6 +63,7 @@
     color: aliceblue;
     padding: 8px 20px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .formbox button:hover{
@@ -85,6 +86,7 @@
     color: aliceblue;
     padding: 10px 20px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .buttonbox button:hover{
