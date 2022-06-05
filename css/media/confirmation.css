@@ -1,0 +1,95 @@
+.content{
+    width: 390px;
+    margin: 0 auto;
+}
+
+.titlebox{
+    padding-left: 10px;
+}
+
+.titlebox div{
+    height: 85.5px;
+    display: inline-block;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    vertical-align: -webkit-baseline-middle;
+    margin: 5px;
+}
+
+.titlebox svg{
+    height: 85.5px;
+}
+
+.titlebox p{
+    vertical-align: middle;
+    line-height: 85.5px;
+}
+
+.formbox{
+    height: 430px;
+    width: 330px;
+    margin: 0 auto;
+}
+
+.formbox div{
+    background-color: rgba(240, 248, 255, 0.3);
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    width: 330px;
+    height: 430px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.formbox div h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 70px;
+}
+
+.formbox div p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 25px;
+}
+
+.formbox button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    padding: 8px 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.formbox button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.buttonbox{
+    text-align: center;
+    margin: 10px;
+}
+
+.buttonbox button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 310px;
+    margin: 30px;
+    border-radius: 30px;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.buttonbox button:hover{
+    background-color: aliceblue;
+    color: black;
+}

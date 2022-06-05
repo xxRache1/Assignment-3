@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-width: 390px;
+    background-image: linear-gradient(#b9d0c4,#364157);
+}
+
+#bodyBox{
+    min-width: 390px;
+    margin: 0 auto;
+}
+
+/* header */
+.head{
+    padding-top: 10px;
+}
+
+.logo{
+    width: 150px;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 150px;
+}
+
+/* footer */
+.foot{
+    background-color: #50576b;
+    height: 305px;
+    padding: 20px 0;
+    min-width: 100%;
+}
+
+.foot ul{
+    width: 95%;
+    padding-left: 10px;
+}
+
+.foot li{
+    color: aliceblue;
+    list-style: none;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+
+.foot div:nth-child(2){
+    height: 160px;
+    min-width: 390px;
+    text-align: center;
+}
+
+.foot div:nth-child(2) div{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.foot div:last-child{
+    margin-top: 150px;
+    height: 2px;
+    width: 95%;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+.foot input{
+    border-radius: 30px;
+    border-style: none;
+    width: 150px;
+    padding: 8px 10px;
+}
+
+.foot button{
+    border-radius: 30px;
+    border-style: none;
+    width: 100px;
+    padding: 8px 10px;
+    background-color: #50a8f4;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+
+
+/* hide elements bigger than 900px */
+.nav > ul{
+    display: none;
+}

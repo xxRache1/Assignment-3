@@ -1,0 +1,93 @@
+.content h1{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 54px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.board{
+    width: 200px;
+    text-align: center;
+    margin: 10px 50px;
+}
+
+.board img{
+    width: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.board p{
+    color: aliceblue;
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.board button{
+    background-color: aliceblue;
+    border-style: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: #3B475C;
+}
+
+.contentbox{
+    text-align: center;
+}
+
+.contentbox div{
+    display: inline-block;
+}
+
+.titlebutton{
+    display: none !important; 
+    /* width: 1200px;
+    margin: 15px auto;
+    width: 1140px;
+    text-align: left; */
+}
+
+/* .titlebutton button{
+    padding: 10px;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #3B475C;
+    border-radius: 20px;
+    border-style: none;
+    margin: 0 15px;
+} */
+
+.buttonbox{
+    text-align: center;
+    margin: 10px;
+}
+
+.buttonbox button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 180px;
+    margin: 30px;
+    border-radius: 30px;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.buttonbox button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.board button:hover{
+    box-shadow: 2px 2px 5px aliceblue;
+}

@@ -1,0 +1,147 @@
+.content{
+    height: 1120px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+#bottonback{
+    height: 80px;
+    width: 90%;
+    text-align: right;
+}
+
+.content div:first-child button{
+    width: 150px;
+    height: 50px;
+    color: #3B475C;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 5px 20px;
+    border-radius: 35px;
+    border-style: none;
+    /* float: right; */
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.imgbox{
+    text-align: center;
+}
+
+.imgbox img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.infobox{
+    position: absolute;
+    top: 750px;
+    width: 100%;
+}
+
+.infobox div:first-child{
+    /* overflow: hidden;
+    padding-left: 30px; */
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.infobox div > div:first-child{
+    border-bottom: 1px solid aliceblue;
+}
+
+/* .num p,.num div{
+    float: left;
+} */
+/* 
+.num{
+    padding-left: 30px;
+    margin-top: 100px;
+} */
+
+.num{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.num div:last-child{
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    text-align: left;
+    margin-top: 88px;
+}
+
+#plus{
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #3B475C;
+}
+
+/* .num > div{
+    margin-left: 100px;
+} */
+
+hr{
+    width: 95%;
+}
+
+.imgwidth{
+    /* float: left; */
+    width: 100%;
+    text-align: center;
+}
+
+.imgwidth > div{
+    /* margin-right: 30px; */
+    margin: 30px 10px;
+    display: inline-block;
+}
+
+.imgwidth img{
+    width: 170px;
+    border-radius: 20px;
+}
+
+.ulbox{
+    position: absolute;
+    top: 1120px;
+    left: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ulbox ul{
+    color: aliceblue;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.ulbox li:nth-child(2){
+    margin: 10px 0;
+}
+
+.detailbutton button{
+    width: 150px;
+    height: 50px;
+    padding: 5px 0;
+    margin: 40px 0px 40px 50px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    border-radius: 30px;
+    border-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #3B475C;
+    font-size: 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+}

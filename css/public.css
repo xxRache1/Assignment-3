@@ -15,6 +15,10 @@ body{
     margin: 0 auto;
 }
 
+.navFlexbox{
+    display: none;
+}
+
 /*header*/
 .head{
     min-width: 1512px;
@@ -25,6 +29,10 @@ body{
 .logo{
     padding-left: 110px;
     float: left;
+}
+
+.logo svg:first-child{
+    display: none;
 }
 
 /*nav bar*/

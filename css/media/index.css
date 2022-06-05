@@ -1,0 +1,97 @@
+/* 内容 */
+.content{
+    height: 500px; 
+}
+
+body{
+    background-image: url('../../images/background1.png');
+    background-size: 150%;
+    background-position-x: -100px;
+    background-attachment: fixed;
+}
+
+.banner{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner div:first-child{
+    padding-top: 150px;
+}
+
+.banner div:last-child{/* button */
+    padding-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 46px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.banner button{
+    border-radius: 25px;
+    border-style: none;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px 30px;
+    opacity: 0.5;
+}
+
+.banner button:hover{
+    opacity: 1;
+}
+
+
+/* left side nav */
+.navFlexbox{
+    position: fixed;
+    height: 600px;
+    width: 220px;
+    background-color: rgba(240, 248, 255, 0.3);
+    border-radius: 0px 20px 0px 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navFlexbox > div:nth-child(1){
+    margin: 30px 0px 0px 10px;
+}
+
+
+
+.navFlexbox > div:nth-child(2){
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.navFlexbox > div > p{
+    color: aliceblue;
+}
+
+.navFlexbox a{
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration:none;
+    font-weight:bold;
+    font-weight: 100;
+}
+
+.navFlexbox li{
+    height: 50px;
+    text-align: center;
+}
+
+.hideBox{
+    /* display: none; */
+    visibility: hidden;
+}
+
+.logo svg:first-child{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    z-index: -1;
+}

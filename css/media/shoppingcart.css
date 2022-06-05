@@ -1,0 +1,139 @@
+.content{
+    height: 550px;
+}
+
+.content h1{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 54px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.secondbox{
+    height: 170px;
+    width: 900px;
+    margin: 50px auto;
+}
+
+.img{
+    float: left;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.img img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.thirdbox{
+    width: 840px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 20px auto;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.thirdbox p{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.thirdbox input{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.buttonbox{
+    text-align: center;
+    margin: 10px;
+}
+
+.buttonbox button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 180px;
+    margin: 30px;
+    border-radius: 30px;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.buttonbox button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.thirdbox > div:first-child{
+    float: left;
+}
+
+.thirdbox > div:last-child{
+    overflow: hidden;
+    padding-left: 460px;
+}
+
+.thirdbox > div:last-child p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.infobox{
+    float: left;
+    padding-top: 40px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.infobox p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.infobox div{
+    margin: 40px auto;
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 150px;
+}
+
+#plus{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #3B475C;
+}
+
+#plus svg:first-child{
+    margin-right: 30px;
+}
+
+#plus svg:last-child{
+    margin-left: 30px;
+}
+
+.price{
+    overflow: hidden;
+}
+
+.price p{
+    padding-top: 40px;
+    padding-left: 100px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 600;
+}

@@ -5,15 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPIELEDELUXE Home</title>
-    <link rel="stylesheet" type="text/css" href="./css/public.css">
-    <link rel="stylesheet" type="text/css" href="./css/index.css"> 
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 391px)" href="./css/public.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 391px)" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 391px)" href="./css/media/public.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 391px)" href="./css/media/index.css">
     <link rel="stylesheet" href="./font/Impact.ttf">
 </head>
 <body>
     <div id="Box">
+
+        <!-- left side nav -->
+        <div class="navFlexbox hideBox">
+            <div>
+                <svg onclick="clickDetailsBtnRemo()" xmlns="http://www.w3.org/2000/svg" width="46.367" height="32.439" viewBox="0 0 46.367 32.439">
+                    <g id="组_30" data-name="组 30" transform="translate(-39.545 -105.852)">
+                      <g id="Icon_feather-menu" data-name="Icon feather-menu" transform="translate(41.837 108.144)">
+                        <path id="路径_1" data-name="路径 1" d="M6.875,27.5H48.659" transform="translate(-6.875 -13.572)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.583"/>
+                        <path id="路径_2" data-name="路径 2" d="M6.875,13.75H48.659" transform="translate(-6.875 -13.75)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.583"/>
+                        <path id="路径_3" data-name="路径 3" d="M6.875,41.25H48.659" transform="translate(-6.875 -13.394)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.583"/>
+                      </g>
+                    </g>
+                </svg>                  
+            </div>
+            <div>
+                <a href="account.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="66" viewBox="0 0 66 66">
+                        <g id="组_82" data-name="组 82" transform="translate(-104.763 -293.238)">
+                          <path id="Icon_awesome-user-circle" data-name="Icon awesome-user-circle" d="M33,.625a33,33,0,1,0,33,33A32.994,32.994,0,0,0,33,.625ZM33,13.4a11.71,11.71,0,1,1-11.71,11.71A11.71,11.71,0,0,1,33,13.4Zm0,45.774A25.5,25.5,0,0,1,13.506,50.1a14.836,14.836,0,0,1,13.107-7.957,3.256,3.256,0,0,1,.945.146A17.618,17.618,0,0,0,33,43.206a17.551,17.551,0,0,0,5.442-.918,3.256,3.256,0,0,1,.945-.146A14.836,14.836,0,0,1,52.494,50.1,25.5,25.5,0,0,1,33,59.173Z" transform="translate(104.763 292.613)" fill="aliceblue"/>
+                        </g>
+                    </svg>
+                </a>
+                <p>SING IN/SING UP</p>
+            </div>
+            <ul>
+                <li><a href="list.html">BOARD GAME</a></li>
+                <li><a href="card.html">CARD GAME</a></li>
+                <li><a href="hobby.html">HOBBY GAME</a></li>
+                <li><a href="other.html">OTHER GAME</a></li>
+                <li><a href="shoppingcart.html">SHOPPING CART</a></li>
+                <li><a href="search.html">SEARCH</a></li>
+            </ul>
+        </div>
+        <!-- left side nav end -->
+
+
         <!--nav start-->
-        <div class="head">
+        <div class="head" onclick="clickDetailsBtnRemo()">
             <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="46.367" height="32.439" viewBox="0 0 46.367 32.439">
+                    <g id="组_30" data-name="组 30" transform="translate(-39.545 -105.852)">
+                      <g id="Icon_feather-menu" data-name="Icon feather-menu" transform="translate(41.837 108.144)">
+                        <path id="路径_1" data-name="路径 1" d="M6.875,27.5H48.659" transform="translate(-6.875 -13.572)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.583"/>
+                        <path id="路径_2" data-name="路径 2" d="M6.875,13.75H48.659" transform="translate(-6.875 -13.75)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.583"/>
+                        <path id="路径_3" data-name="路径 3" d="M6.875,41.25H48.659" transform="translate(-6.875 -13.394)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.583"/>
+                      </g>
+                    </g>
+                </svg>
                 <a href="index.html">
                     <img src="./images/logo.png" alt="logo">
                 </a>
@@ -101,5 +148,6 @@
         <div></div>
     </div>
     <!--footer end-->
+    <script src="./js/public.js"></script>
 </body>
 </html>
